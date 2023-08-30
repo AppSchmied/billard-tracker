@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Training Progress Tracker</h1>
+    
+    <form id="addWorkoutForm">
+        <input type="text" id="workoutName" placeholder="Workout Name" required>
+        <input type="number" id="sets" placeholder="Sets" required>
+        <input type="number" id="reps" placeholder="Reps" required>
+        <button type="submit">Add Workout</button>
+    </form>
+    
+    <div id="workoutsList"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
