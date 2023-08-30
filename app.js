@@ -1,11 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDXf9AMuPEcDATG9JOMgEvU4vSoxB_E18g",
+  authDomain: "billard-tracker-4d51e.firebaseapp.com",
+  databaseURL: "https://billard-tracker-4d51e-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "billard-tracker-4d51e",
+  storageBucket: "billard-tracker-4d51e.appspot.com",
+  messagingSenderId: "834006150908",
+  appId: "1:834006150908:web:0d7a8160c0dcb99ae3f179"
 };
 
 firebase.initializeApp(firebaseConfig);
